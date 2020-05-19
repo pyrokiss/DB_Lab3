@@ -28,7 +28,7 @@ CREATE TABLE Developers(
 ALTER TABLE Developers ADD CONSTRAINT developer_pk PRIMARY KEY (developer);
 
 CREATE TABLE Rating(
-    rating VARCHAR(50) NOT NULL,
+    rating VARCHAR(50) NOT NULL
 );
 ALTER TABLE Rating ADD CONSTRAINT rating_pk PRIMARY KEY (rating);
 
